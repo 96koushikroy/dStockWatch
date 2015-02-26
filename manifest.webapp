@@ -1,0 +1,19 @@
+{
+"name": "dStockWatch",
+"description": "An app to show the latest updates of the Dhaka Stock Exchange",
+"launch_path": "/index.html",
+"icons":{
+"128": "/images/i128.png",
+"64": "/images/64.png",
+"32": "/images/32.png",
+"16": "/images/16.png"
+},
+"developer":{
+"name": "Koushik Roy",
+"url": "http://www.koushikroy.tk"
+},
+"default_locale": "en"
+
+
+
+}

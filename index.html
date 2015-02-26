@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="jquery.mobile-1.4.4.min.css">
+<script src="jquery-1.11.1.min.js"></script>
+<script src="jquery.mobile-1.4.4.min.js"></script>
+<script src="jquery.dynatable.js"></script>
+	<link rel="stylesheet" type="text/css" href="jquery.dynatable.css">
+<script src="app.js"></script>
+	<title>dStock Watch</title>
+
+</head>
+<body>
+<div data-role="page" id="primary">
+
+  <div data-role="header">
+    <h1>Primary Menu</h1>
+  </div>
+
+  <div data-role="main" class="ui-content" align="center">
+    <p>Hi there! Welcome to dStock Watch.</p>
+    <p>Please use the buttons below to navigate </p><br />
+    <input type="button" id="normal" value="View All">
+    <input type="button" id="search1" value="Search">
+    <a href="#myPopup" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all">Visualize your Stock</a>
+  </div>
+<div data-role="popup" id="myPopup">
+  <p>Data Visualization feature is comming soon with the next update!</p>
+</div>
+<div data-role="footer">
+    <h1>v1.0.0</h1>
+  </div>
+</div>
+
+<div data-role="page" id="pg2">
+
+  <div data-role="header">
+  <a href="index.html" class="ui-btn-left" data-icon="back">Back</a>
+    <h1>Dhaka Stocks</h1>
+  </div>
+
+  <div data-role="main" class="ui-content" align="center">
+  
+    <table data-role="table" class="ui-responsive" id="my-final-table" border="1px">
+  <thead>
+    <tr>
+      <th>Company</th>
+      <th>Last Trade</th>
+      <th>Change Percent</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+   </div>
+
+</div>
+
+<div data-role="page" id="search">
+
+  <div data-role="header">
+  <a href="index.html" data-icon="back">Back</a>
+    <h1>Search for your Stock</h1>
+  </div>
+
+  <div data-role="main" class="ui-content" align="center">
+    <input type="text" id="searchtxt" placeholder="Search your Stock">
+    <div id="updateee">
+    	
+
+    </div>
+  </div>
+
+<div data-role="footer">
+    <h1>v1.0.0</h1>
+  </div>
+</div>
+
+</body>
+</html>
